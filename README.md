@@ -56,6 +56,14 @@ The notebook features a **User Configuration Block** at the top. Users can modif
 | `BIOGAS_H2S_PPM` | Concentration of H<sub>2</sub>S in raw biogas (ppmv). Adjust up to 3000.0 for high-sulfur protein feeds. | `1065.0` |
 | `H2S_REMOVAL_EFFICIENCY` | Chemical trap scrubbing efficiency. 0.0 = unscrubbed worst-case leak; set to 0.95 for active NaOH and carbon filtering. | `0.0` |
 | `WEIGHT_ENERGY`, `WEIGHT_STABILITY`, `WEIGHT_RISK`, `WEIGHT_COST` | Multi-criteria screening weights (must sum to 1.0). | `0.25` each |
+| `H2S_TWA_LIMIT_PPM` | Safe Work Australia 8-hour Time-Weighted Average exposure standard for H<sub>2</sub>S (ppm). | `10.0` |
+| `H2S_STEL_LIMIT_PPM` | Safe Work Australia 15-minute Short-Term Exposure Limit for H<sub>2</sub>S (ppm). | `15.0` |
+| `H2S_SCREENING_LIMIT_PPM` | Conservative project screening threshold for H<sub>2</sub>S (ppm), based on AWA guideline review. | `5.0` |
+| `CO2_EXPOSURE_LIMIT_PPM` | Safe Work Australia 8-hour exposure limit for CO<sub>2</sub> (ppm). | `5000.0` |
+| `CH4_LFL_PERCENT` | Lower Flammability Limit of CH<sub>4</sub> in air (% v/v), per AS/NZS 60079.10.1. | `5.0` |
+| `LAB_EQUIPMENT_CAPEX` | One-off laboratory glassware and gas safety hardware budget (AUD), based on verified Australian retail pricing. | `2002.86` |
+| `LAB_CONSUMABLES_RUN` | Variable consumables cost per experimental run (AUD) for reagents, NaOH, carbon, and spawn. | `28.69` |
+| `AMORTISATION_RUNS` | Planned number of experimental runs over which capital equipment is amortised (gives a capital share of 100.14 AUD per run). | `20` |
 
 ## Visualisation Outputs
 
