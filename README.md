@@ -16,7 +16,7 @@ This is a laboratory-scale evaluation engine. The program:
 
 | File | Description |
 |------|-------------|
-| `group3_simulation_v4.ipynb` | Interactive Jupyter Notebook containing all evaluation equations, tables, and visualisation routines. |
+| `group3_simulation.ipynb` | Interactive Jupyter Notebook containing all evaluation equations, tables, and visualisation routines. |
 | `scenario_summary.csv` | Primary dataset containing simulated results for Scenarios S1 to S13 (Group 1 dataset). |
 | `scenario_summary_results.csv` | Benchmark reference dataset containing published results for Scenarios S1 to S9 (Zenodo repository). |
 | `requirements.txt` | Python package dependencies. |
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 ### 3. Run the notebook
 
-Open the project directory in Visual Studio Code or JupyterLab, and run all cells in `group3_simulation_v4.ipynb`.
+Open the project directory in Visual Studio Code or JupyterLab, and run all cells in `group3_simulation.ipynb`.
 
 ## User Configuration
 
